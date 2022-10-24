@@ -3,11 +3,10 @@ import java.util.ArrayList;
 public interface Park {
     void addRide(Ride ride);
     void close();
-    void enlarge(double addedLand);
-    void enlarge​(double addedLand,
+    void enlarge(double addedLand,
                   double maxLand,
                   boolean addedIndoor,
-                  boolean addedOutdoor);
+                  boolean addedOutdoor) throws SpaceFullException;
     double getAdmissionCost();
     double getLand();
     String getName();

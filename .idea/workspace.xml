@@ -1,12 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="78e78166-15f5-476a-932f-48c3515660d7" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/AmusementPark.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Park.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Ride.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="78e78166-15f5-476a-932f-48c3515660d7" name="Changes" comment="10/24/2022 2:21">
+      <change afterPath="$PROJECT_DIR$/src/Rollercoaster.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SpaceFullException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/WaterPark.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Waterslide.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/WrongRideException.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hw-09.iml" beforeDir="false" afterPath="$PROJECT_DIR$/hw-09.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AmusementPark.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AmusementPark.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Park.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Park.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Ride.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ride.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,6 +40,10 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true"
   }
@@ -53,6 +62,14 @@
       <option name="presentableId" value="Default" />
       <updated>1666240222794</updated>
     </task>
+    <task id="LOCAL-00001" summary="10/24/2022 2:21">
+      <created>1666635692963</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1666635692963</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -65,5 +82,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="10/24/2022 2:21" />
+    <option name="LAST_COMMIT_MESSAGE" value="10/24/2022 2:21" />
   </component>
 </project>
