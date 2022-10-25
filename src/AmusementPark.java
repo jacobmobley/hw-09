@@ -1,5 +1,15 @@
 import java.util.ArrayList;
 
+/**
+ * AmusementPark.java
+ *
+ * AmusementPark class for hw9
+ *
+ * @author Jacob Mobley, CS-180 Black LC2
+ *
+ * @version 10-24-22
+ *
+ */
 public class AmusementPark extends Object implements Park {
     private double admissionCost;
     private boolean arcade;
@@ -11,7 +21,7 @@ public class AmusementPark extends Object implements Park {
     private ArrayList<Ride> rides;
     private boolean[] seasons;
 
-    AmusementPark(
+    public AmusementPark(
             String name,
             double admissionCost,
             double land,
@@ -40,10 +50,6 @@ public class AmusementPark extends Object implements Park {
         return bowling;
     }
 
-    public void addRide(Ride ride) {
-        rides.add(ride);
-    }
-
     public void close() {
         name = "";
         admissionCost = 0;
@@ -56,26 +62,30 @@ public class AmusementPark extends Object implements Park {
         bowling = false;
     }
 
-    public void enlarge(double addedLand, double maxLand, boolean addedIndoor, boolean addedOutdoor) throws SpaceFullException {
-       if (addedLand > maxLand - land) {
-           throw new SpaceFullException("There is no more land to use for this park!");
-       } else {
-           if (addedIndoor) {
-               indoor = true;
-           }
-           if (addedOutdoor) {
-               outdoor = true;
-           }
-       }
+    public void enlarge(
+        double addedLand, 
+        double maxLand, 
+        boolean addedIndoor, 
+        boolean addedOutdoor) throws SpaceFullException {
+        if (addedLand > maxLand - land) {
+            throw new SpaceFullException("There is no more land to use for this park!");
+        } else {
+            if (addedIndoor) {
+                indoor = true;
+            }
+            
+            if (addedOutdoor) {
+                outdoor = true;
+            }
+        }
     }
 
-    public void modifyRide(Ride ride, String newName, String newColor, int newMinHeight, int newMaxRiders, boolean newSimulated) {
+    public void modifyRide(Ride ride, String newName, String newColor, int newMinHeight, int newMaxRiders) {
         Ride temp = rides.get(rides.indexOf(ride));
         temp.setName(newName);
         temp.setColor(newColor);
         temp.setMinHeight(newMinHeight);
-        temp.setMazRiders(newMaxRiders);
-        temp.setSimulated(newSimulated);
+        temp.setMaxRiders(newMaxRiders);
         rides.set(rides.indexOf(ride), temp);
     }
 
@@ -106,6 +116,14 @@ public class AmusementPark extends Object implements Park {
 
     public boolean isOutdoor() {
         return outdoor;
+    }
+
+    public void addRide(Ride ride) throws WrongRideException {
+        if (ride.getClass() != Rollercoaster.class) {
+            throw new WrongRideException("An amusement park can only have rollercoaster rides!");
+        } else {
+            rides.add(ride);
+        }
     }
 
     public void removeRide(Ride ride) {

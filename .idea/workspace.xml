@@ -2,16 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="78e78166-15f5-476a-932f-48c3515660d7" name="Changes" comment="10/24/2022 2:21">
-      <change afterPath="$PROJECT_DIR$/src/Rollercoaster.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SpaceFullException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WaterPark.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Waterslide.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/WrongRideException.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/hw-09.iml" beforeDir="false" afterPath="$PROJECT_DIR$/hw-09.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/AmusementPark.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AmusementPark.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Park.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Park.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Ride.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Ride.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Rollercoaster.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Rollercoaster.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/RunLocalTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/RunLocalTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SpaceFullException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SpaceFullException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/WaterPark.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/WaterPark.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Waterslide.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Waterslide.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/WrongRideException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/WrongRideException.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,10 +46,14 @@
     "Repository.Attach.JavaDocs": "false",
     "Repository.Attach.Sources": "false",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true"
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "/home/jacobmobley/IdeaProjects/hw-09/src"
   }
 }]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\jacob\IdeaProjects\hw-09\src" />
     </key>
