@@ -65,6 +65,7 @@ public class Ride extends Object {
         try {
             return o.getClass() == this.getClass() &&
                     ((Ride) o).getColor().equals(this.color) &&
+                    ((Ride) o).getName().equals(this.name) &&
                     ((Ride) o).getMaxRiders() == this.maxRiders &&
                     ((Ride) o).getMinHeight() == this.minHeight;
         } catch (Exception e) {
